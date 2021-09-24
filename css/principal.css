@@ -12,11 +12,82 @@ body{
 
 .avatar2{
 height: 40px;
-
-
-
-
 }
+
+
+
+.imgpokemon{
+    width: 150px;
+    height: 100px;
+}
+
+
+
+.inicio {
+    text-align: center;
+    
+}
+
+
+
+
+
+
+#cuenta{
+    font-size: 1rem;
+    letter-spacing: 3px;
+}
+
+
+
+
+
+
+
+
+.datos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nombreUser, .cuentaUser{
+    font-size: 25px;
+    color: #f01c7f;
+}
+
+.transacciones{
+    display: block;
+}
+
+.primer, .segundo {
+  display: flex;
+  justify-content: space-between;
+   
+}
+
+
+#depositar, #retirar, #consultar, #pagar{
+    width: 150px;
+    height: 70px;
+    border: 3px solid #000;
+    background-color: rgb(238, 70, 3);
+    margin-bottom: 10px;
+    border-radius: 5%;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .menu{
@@ -143,6 +214,8 @@ ul.show {
         }
     }
 
+
+  
 
 }
     

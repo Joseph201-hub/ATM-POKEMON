@@ -7,6 +7,7 @@
     <title>Pokémon Bank</title>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel= "stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="https://kit.fontawesome.com/e8ee58c00b.js" crossorigin="anonymous"></script>
     <script src="./app.js" defer></script>
     
@@ -22,11 +23,10 @@
        
         
         <ul class="menu_items">
-            <li><a href="#">Pagos de servicio</a></li>
-            <li><a href="#">Transferencia</a></li>
-            <li><a href="#">Retiros </a></li>
-            <li><a href="#">Abonos</a></li>
-            <li><a href="#">Actualizacion de datos</a></li>
+            
+            <li><a href="#">gráfico de transacciones</a></li>
+            <li><a href="#"> transacciones </a></li>
+            <li><a href="#">CERRAR SESIÓN</a></li>
 
         </ul>
         <span class="btn_menu">
@@ -34,6 +34,45 @@
     
         </span>
     </nav>
+    
+    <section class="capa3 container-md"> 
+        <div class="row d-flex justify-content-center">
+              <div class="col-sm-12, col-md-8 capa ml-auto mb-2">
+                  
+  
+                 <br>
+                  <div id="inicio" class="container-md inicio ">
+                      <div class="datos">
+                        <p class="nombreUser">Morellia Garcia</p>
+                        <p class="cuentaUser">Cuenta: 6243687329</p>
+                      </div>
+                     <br><br><br>
+                    
+                     <div class="transacciones">
+                        <div class="primer">
+                            <button id="depositar">Depositar efectivo</button>
+                            <button id="retirar">Retirar efectivo</button>
+                        </div>
+
+                        <img src="img/sinfondopokemon.png" class="img-fluid rounded imgpokemon"  alt="Logo pokémon bank">
+                         
+                        <div class="segundo">
+                            <button id="consultar" class="mt-5">Consultar saldo</button>
+                            <button id="pagar" class="mt-5">Pagar servicios</button>
+                         </div>
+                         
+
+                     </div>
+                  </div>
+                </div>
+                
+      </div>
+      </section>
+
+
+
+
+    
     
 
     

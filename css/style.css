@@ -1,0 +1,183 @@
+body {
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    background-image: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Patrick Hand', cursive;
+    backdrop-filter: blur(4px);
+}
+
+
+.capa{
+    padding-top: 10px;
+    margin-top: 50px;
+    border: 10px solid rgba(0, 0, 0, 0.925);
+    background-color: rgba(0, 0, 0, 0.801);
+    min-height: 90vh; 
+    
+}
+/* 
+.interfaz{
+    
+} */
+
+.img-poke{
+    width: 125px;
+    height: 90px;
+}
+
+.img-poke2{
+    width: 150px;
+    height: 100px;
+}
+
+.dividor{
+    width: 100%;
+    border: 3px dashed #fff;
+}
+
+.guion{
+    width: 25%;
+    border: 2px solid #f0b51c;
+    margin: 0 auto;
+}
+
+.inicio, .bienvenida{
+    text-align: center;
+    
+}
+
+.saludo
+{
+    font-weight:bold;
+    color:#f0b51c;
+    font-size: 3rem;
+    display: block;
+    text-transform:uppercase ;
+    margin-top: 40px;
+    text-shadow:0.5px -1px 1px #fff;
+}
+
+.saludo2
+{
+    font-weight:bold;
+    color:#3362ad;
+    font-size: 2rem;
+    left:29px;
+    top:30px;
+    text-shadow:0.5px 0px 1px #fff;
+    letter-spacing: 1px;
+}
+
+.numcuenta{
+    color:#f0b51c;
+}
+
+#errorNum{
+    color: red;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: bolder;
+}
+
+#errorNum2{
+    color: red;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: bolder;
+}
+
+#cuenta{
+    font-size: 1rem;
+    letter-spacing: 3px;
+}
+
+.cuenta, .pass
+{
+    height:20px;
+    width:100px;
+    top:80px;
+    left:80px;
+    border-radius:5px;
+    text-shadow:0.5px 0.5px black;
+    border-style:solid;
+    border-color:black;
+}
+#btnIngresar, #btn1
+{
+    height:40px;
+    width:100px;
+    top:110px;
+    left:100px;
+    font-size: 15px;
+    text-align:center;
+    font-weight:bold;
+    
+    /* maxlength:8; */
+}
+
+.btnum{
+    width: 70px;
+    height: 50px;
+    background: silver;
+    border: 4px solid rgb(29, 29, 29);
+    border-radius: 10%;
+    margin-bottom: 5px;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.btnop{
+    width: 100px;
+    height: 50px;
+    border: 3px solid #000;
+    background-color: silver;
+    margin-bottom: 5px;
+    border-radius: 10%;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.datos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nombreUser, .cuentaUser{
+    font-size: 25px;
+    color: #f0b51c;
+}
+
+.transa{
+    display: block;
+}
+
+.primer, .segundo {
+  display: flex;
+  justify-content: space-between;
+   
+}
+#depositar, #retirar, #consultar, #pagar{
+    width: 150px;
+    height: 70px;
+    border: 3px solid #000;
+    background-color: rgb(247, 214, 177);
+    margin-bottom: 5px;
+    border-radius: 10%;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+#salir{
+    width: 100px;
+    height: 40px;
+    margin-top: 60px;
+    border: 3px solid #000;
+    color: #fff;
+    margin-bottom: 5px;
+    border-radius: 10%;
+    font-size: 1rem;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
