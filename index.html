@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login| Pokémon Bank</title>
+    <link rel="stylesheet" href="css/estilologin.css">
+</head>
+<body>
+    <div class="loginbox">
+      <img  class= "avatar" src="img/pokesinmargen.png" alt="Logo Pokemon">
+      <h1>Login Here</h1>
+
+
+      <form action="">
+        
+        <label for="">Usuario</label>
+        <input type="text" name="u" id="" placeholder="Enter Username">
+    
+        <label for="">Contraseña</label>
+        <input type="password" name="c" id="" placeholder="Enter Password">
+
+        <input type="button" value="Ingresar" onclick="login(this.form)">
+        <a href="#">Olvidaste tu contraseña?</a>
+      </form>
+
+      <script>
+        function login(form){
+            if (form.u.value=="Morellia G"){
+                if(form.c.value== "12345") {
+                     location="principal.html"; 
+                } else {
+                    alert("Error de Password");
+
+                }
+            } else {
+                alert("Error de Usuario");
+            }
+        }
+    </script>
+
+    </div>
+    
+</body>
+</html>
